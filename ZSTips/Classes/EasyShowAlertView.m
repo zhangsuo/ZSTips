@@ -281,10 +281,10 @@ typedef NS_ENUM(NSUInteger , alertShowType) {
             textFont  = [UIFont boldSystemFontOfSize:17] ;
         }break ;
         case ShowAlertItemTypeBlue:{
-            textColor = [UIColor blueColor];
+            textColor = [UIColor colorWithRed:48/255.0 green:140/255.0 blue:255/255.0 alpha:1.0];
         }break ;
         case ShowAlertItemTypeBlodBlue:{
-            textColor = [UIColor blueColor];
+            textColor = [UIColor colorWithRed:48/255.0 green:140/255.0 blue:255/255.0 alpha:1.0];
             textFont = [UIFont boldSystemFontOfSize:17] ;
         }break ;
         case ShowAlertItemTypeBlack:{

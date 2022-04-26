@@ -5,8 +5,7 @@
 //  Created by nf on 2017/12/14.
 //  Copyright © 2017年 chenliangloveyou. All rights reserved.
 //
-// github上会实时更新：https://github.com/chenliangloveyou/EasyShowView
-// 喜欢的话给个start，你的start是我努力维护的动力
+
 #import "EasyShowTextView.h"
 #import "UIView+EasyShowExt.h"
 
@@ -68,7 +67,8 @@
     }
     else{
         //父视图不能接收-->self的大小应该为superview的大小。来遮盖
-        [self setFrame: CGRectMake(0, 0, superView.width, superView.height)] ;
+        [self setFrame: CGRectMake(superView.width/2, 0, superView.width, superView.height)] ;
+
     }
     
     
@@ -265,7 +265,7 @@
     for (UIView *subview in subviewsEnum) {
         if ([subview isKindOfClass:self]) {
             EasyShowTextView *showView = (EasyShowTextView *)subview ;
-            [showView removeSelfFromSuperView];
+          //  [showView removeSelfFromSuperView];
         }
     }
     
@@ -340,9 +340,9 @@
     //显示区域的frame
     CGRect showFrame = CGRectMake(0, showFrameY, backGroundW, backGroundH);
     
-    if (!self.options.textSuperViewReceiveEvent) {
+//    if (!self.options.textSuperViewReceiveEvent) {
         showFrame.origin = CGPointMake((self.width-backGroundW)/2, showFrameY) ;
-    }
+//    }
     
     return showFrame ;
 }
@@ -384,8 +384,12 @@
 
 + (void)showText:(NSString *)text
 {
-    UIView *showView = [UIApplication sharedApplication].keyWindow ;
-    [self showText:text inView:showView];
+    if(text){
+        UIView *showView = [UIApplication sharedApplication].keyWindow ;
+        showView.backgroundColor = [UIColor redColor];
+        [self showText:text inView:showView];
+    }
+   
 }
 
 + (void)showText:(NSString *)text inView:(UIView *)view

@@ -18,8 +18,9 @@
  *
  * 需要自定义的样式可以在EasyShowOptions里设置
  */
-+ (void)showLoding ;
++ (void)showLoding;
 + (void)showLodingText:(NSString *)text ;
++ (void)showOnWindowLodingText:(NSString *)text;
 + (void)showLodingText:(NSString *)text inView:(UIView *)superView ;
 + (void)showLodingText:(NSString *)text imageName:(NSString *)imageName ;
 + (void)showLodingText:(NSString *)text imageName:(NSString *)imageName inView:(UIView *)superView ;
@@ -30,6 +31,7 @@
  * uperview:加载框所在的父视图。show的时候没有指定父视图。那么隐藏的时候也不用
  */
 + (void)hidenLoding ;
++ (void)hidenOnWindowLoding;
 + (void)hidenLoingInView:(UIView *)superView ;
 
 

@@ -41,6 +41,11 @@
 {
     [self showLodingText:@""];
 }
++ (void)showOnWindowLodingText:(NSString *)text {
+    [EasyShowOptions sharedEasyShowOptions].lodingShowType = LodingShowTypeTurnAroundLeft;
+    UIView *showView = [UIApplication sharedApplication].keyWindow;
+    [self showLodingText:text inView:showView];
+}
 + (void)showLodingText:(NSString *)text
 {
     UIView *showView = [EasyShowUtils topViewController].view ;
@@ -97,7 +102,10 @@
    
 }
 
-
++ (void)hidenOnWindowLoding{
+    UIView *showView = [UIApplication sharedApplication].keyWindow ;
+    [self hidenLoingInView:showView];
+}
 
 + (void)hidenLoding
 {
@@ -113,18 +121,16 @@
     for (UIView *subview in subviewsEnum) {
         if ([subview isKindOfClass:self]) {
             EasyShowLodingView *showView = (EasyShowLodingView *)subview ;
-
             [showView removeSelfFromSuperView];
         }
     }
 }
 
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
+- (instancetype)initWithFrame:(CGRect)frame{
+    
     if (self = [super initWithFrame:frame]) {
-        
-        self.backgroundColor =  [UIColor clearColor]; // [UIColor greenColor] ;//
+      self.backgroundColor =  [UIColor clearColor]; // [UIColor greenColor] ;//
     }
     return self ;
 }
