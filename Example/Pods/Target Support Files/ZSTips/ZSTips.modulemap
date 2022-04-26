@@ -1,0 +1,6 @@
+framework module ZSTips {
+  umbrella header "ZSTips-umbrella.h"
+
+  export *
+  module * { export * }
+}

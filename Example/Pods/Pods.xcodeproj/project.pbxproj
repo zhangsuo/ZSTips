@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3726900CDA1554C3BA0A6FD63D71C449 /* Pods-ZSTips_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E7D6A114FDDE9EEAEA09C27086DC6 /* Pods-ZSTips_Example-dummy.m */; };
+		402010001B7C6100B5E5B4F25FB76FB4 /* ZSTips-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1E878E3F9AB6473F4ED97429935974 /* ZSTips-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451A4E1F02C343D79D3D28BBACDEEFAE /* Pods-ZSTips_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F35FF4ABF2CB2F6B17C5EADF38A8F8 /* Pods-ZSTips_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E6C6F7BF58CE20EDC916F59D0E73886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		921A9E2B1B40BF4CF5ACF19DE0CA4B71 /* Pods-ZSTips_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127DA1843030D95EE68182E017B3753 /* Pods-ZSTips_Tests-dummy.m */; };
+		A40CE3B3C525B5C485F1A1302B5BDB3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E30775E298CBE35454071E36FE500C79 /* Pods-ZSTips_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51161042A8CA2ACDB3A3C8E0214C77FF /* Pods-ZSTips_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E660A74B312FB5E2B55065D70E7E781C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EA34A334D52D99C54FA7B2E80D1DC368 /* ZSTips-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1077FC3450687DEFC6B23B0CD95D6B75 /* ZSTips-dummy.m */; };
+		EB37489CB86831FA8CB4C31A26A53613 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2695D0892D5F52AFAE041DE6F4C680AA /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD6C4EF945AE01672475BB66C7F5EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF2616BAC3680262E2CD76E5B714D77;
+			remoteInfo = "Pods-ZSTips_Example";
+		};
+		EF3E7950366FFB2537BA17A1B04996E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8CE8BA8712340006576A942FE2798C6;
+			remoteInfo = ZSTips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07559B6494051815AEA66C98A0686DB4 /* ZSTips.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZSTips.modulemap; sourceTree = "<group>"; };
+		0DB8B5C18300F85C5E086D6A104BA09F /* Pods-ZSTips_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSTips_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1077FC3450687DEFC6B23B0CD95D6B75 /* ZSTips-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSTips-dummy.m"; sourceTree = "<group>"; };
+		12F35FF4ABF2CB2F6B17C5EADF38A8F8 /* Pods-ZSTips_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSTips_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2695D0892D5F52AFAE041DE6F4C680AA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZSTips/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2B9814C1F828C6171FF6A17DBB82DCA0 /* ZSTips.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZSTips.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34F6A8BC69592CD8878CE7A3FBEAD5B9 /* Pods-ZSTips_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSTips_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		35D577FFFA323ACA26136878951BF714 /* Pods-ZSTips_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSTips_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E601E62BD5C3922669B599A964C81B5 /* ZSTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSTips.debug.xcconfig; sourceTree = "<group>"; };
+		3F1E878E3F9AB6473F4ED97429935974 /* ZSTips-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSTips-umbrella.h"; sourceTree = "<group>"; };
+		3FD00A46AC5B5A37660E1321759A34F8 /* Pods-ZSTips_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZSTips_Example"; path = Pods_ZSTips_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		439ADD4C1627572E4820BD75DCF16968 /* ZSTips-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSTips-prefix.pch"; sourceTree = "<group>"; };
+		4C86FB80DB2302D8994ACE9D746A39F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4F73080296B03A771C920D7DF2795522 /* Pods-ZSTips_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSTips_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51161042A8CA2ACDB3A3C8E0214C77FF /* Pods-ZSTips_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSTips_Example-umbrella.h"; sourceTree = "<group>"; };
+		54F7BBD80453ADFA03F438A8DC4FB067 /* Pods-ZSTips_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSTips_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B58DDDD53A21361942B2AA36D48D7D1 /* Pods-ZSTips_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSTips_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		640B25B5E83C12E8B3A0217EDCA0BE4D /* Pods-ZSTips_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSTips_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6D7E7D6A114FDDE9EEAEA09C27086DC6 /* Pods-ZSTips_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSTips_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73F7D92587D4C0897BF4BD3100DCFCF7 /* Pods-ZSTips_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSTips_Tests-Info.plist"; sourceTree = "<group>"; };
+		75AB40630B923EBDC4BF259D86DE3949 /* Pods-ZSTips_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSTips_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8512AA13736A69E25E78BDEFAB6BD8B1 /* Pods-ZSTips_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZSTips_Tests.modulemap"; sourceTree = "<group>"; };
+		8B3F179CD62BC55EB0D2DC0B232E7492 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		90D71FCF4B27CC4A8B4F3B5C3B797B82 /* ZSTips */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZSTips; path = ZSTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9127DA1843030D95EE68182E017B3753 /* Pods-ZSTips_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSTips_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF9C6D6B1985E5FE3A28A3ED808B5083 /* Pods-ZSTips_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSTips_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CECBBE24D64FB92CE67BA24C2468CE14 /* Pods-ZSTips_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZSTips_Example.modulemap"; sourceTree = "<group>"; };
+		D77C1C99F50378B07741B86579B333EA /* Pods-ZSTips_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSTips_Example-Info.plist"; sourceTree = "<group>"; };
+		E31036C31B7C143B8F11D9D3DB5C2CF9 /* ZSTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSTips.release.xcconfig; sourceTree = "<group>"; };
+		EC815EB31F2DD8E1A2DDAB5E5A2F0788 /* Pods-ZSTips_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZSTips_Tests"; path = Pods_ZSTips_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F3F5712553836089971ECDBF50CE12 /* ZSTips-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZSTips-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C0CB1CEAA150FEC4B8593D3DAD6B8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E660A74B312FB5E2B55065D70E7E781C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D170DDA4CC516081A19F3D543FFDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40CE3B3C525B5C485F1A1302B5BDB3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7705A595EAA12F987E6E23C98CE8149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6C6F7BF58CE20EDC916F59D0E73886 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C65EC856F38E145D964F33411A0148 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07559B6494051815AEA66C98A0686DB4 /* ZSTips.modulemap */,
+				1077FC3450687DEFC6B23B0CD95D6B75 /* ZSTips-dummy.m */,
+				F8F3F5712553836089971ECDBF50CE12 /* ZSTips-Info.plist */,
+				439ADD4C1627572E4820BD75DCF16968 /* ZSTips-prefix.pch */,
+				3F1E878E3F9AB6473F4ED97429935974 /* ZSTips-umbrella.h */,
+				3E601E62BD5C3922669B599A964C81B5 /* ZSTips.debug.xcconfig */,
+				E31036C31B7C143B8F11D9D3DB5C2CF9 /* ZSTips.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZSTips";
+			sourceTree = "<group>";
+		};
+		514D0A944CEA0DCE9FFC7A8BC2DC316D /* ZSTips */ = {
+			isa = PBXGroup;
+			children = (
+				2695D0892D5F52AFAE041DE6F4C680AA /* ReplaceMe.m */,
+				F8359FEEA9C7CFC749560805BD7488CF /* Pod */,
+				03C65EC856F38E145D964F33411A0148 /* Support Files */,
+			);
+			name = ZSTips;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		82EC1C4100A293FDB8AF404914FA561E /* Pods-ZSTips_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CECBBE24D64FB92CE67BA24C2468CE14 /* Pods-ZSTips_Example.modulemap */,
+				4F73080296B03A771C920D7DF2795522 /* Pods-ZSTips_Example-acknowledgements.markdown */,
+				5B58DDDD53A21361942B2AA36D48D7D1 /* Pods-ZSTips_Example-acknowledgements.plist */,
+				6D7E7D6A114FDDE9EEAEA09C27086DC6 /* Pods-ZSTips_Example-dummy.m */,
+				35D577FFFA323ACA26136878951BF714 /* Pods-ZSTips_Example-frameworks.sh */,
+				D77C1C99F50378B07741B86579B333EA /* Pods-ZSTips_Example-Info.plist */,
+				51161042A8CA2ACDB3A3C8E0214C77FF /* Pods-ZSTips_Example-umbrella.h */,
+				AF9C6D6B1985E5FE3A28A3ED808B5083 /* Pods-ZSTips_Example.debug.xcconfig */,
+				640B25B5E83C12E8B3A0217EDCA0BE4D /* Pods-ZSTips_Example.release.xcconfig */,
+			);
+			name = "Pods-ZSTips_Example";
+			path = "Target Support Files/Pods-ZSTips_Example";
+			sourceTree = "<group>";
+		};
+		84E3289CA4378297D209DAA5B1AC97E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD00A46AC5B5A37660E1321759A34F8 /* Pods-ZSTips_Example */,
+				EC815EB31F2DD8E1A2DDAB5E5A2F0788 /* Pods-ZSTips_Tests */,
+				90D71FCF4B27CC4A8B4F3B5C3B797B82 /* ZSTips */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94888B7E454FDC3C8C96A43964576FFF /* Pods-ZSTips_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8512AA13736A69E25E78BDEFAB6BD8B1 /* Pods-ZSTips_Tests.modulemap */,
+				54F7BBD80453ADFA03F438A8DC4FB067 /* Pods-ZSTips_Tests-acknowledgements.markdown */,
+				0DB8B5C18300F85C5E086D6A104BA09F /* Pods-ZSTips_Tests-acknowledgements.plist */,
+				9127DA1843030D95EE68182E017B3753 /* Pods-ZSTips_Tests-dummy.m */,
+				73F7D92587D4C0897BF4BD3100DCFCF7 /* Pods-ZSTips_Tests-Info.plist */,
+				12F35FF4ABF2CB2F6B17C5EADF38A8F8 /* Pods-ZSTips_Tests-umbrella.h */,
+				75AB40630B923EBDC4BF259D86DE3949 /* Pods-ZSTips_Tests.debug.xcconfig */,
+				34F6A8BC69592CD8878CE7A3FBEAD5B9 /* Pods-ZSTips_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZSTips_Tests";
+			path = "Target Support Files/Pods-ZSTips_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D9EE6ED2ACA286A312603E35E953A264 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				84E3289CA4378297D209DAA5B1AC97E7 /* Products */,
+				F6B5058C8B8F1848694A854673533CA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9EE6ED2ACA286A312603E35E953A264 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				514D0A944CEA0DCE9FFC7A8BC2DC316D /* ZSTips */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F6B5058C8B8F1848694A854673533CA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EC1C4100A293FDB8AF404914FA561E /* Pods-ZSTips_Example */,
+				94888B7E454FDC3C8C96A43964576FFF /* Pods-ZSTips_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8359FEEA9C7CFC749560805BD7488CF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4C86FB80DB2302D8994ACE9D746A39F1 /* LICENSE */,
+				8B3F179CD62BC55EB0D2DC0B232E7492 /* README.md */,
+				2B9814C1F828C6171FF6A17DBB82DCA0 /* ZSTips.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AC36280FEAA70789137F6D603CE791F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A4E1F02C343D79D3D28BBACDEEFAE /* Pods-ZSTips_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F804CDFCB3F55BF4B873DEFAECA0FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30775E298CBE35454071E36FE500C79 /* Pods-ZSTips_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F48F9D2711D8D2C9B6679D90B1616 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402010001B7C6100B5E5B4F25FB76FB4 /* ZSTips-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55B28D9174C6186A8C197C1B911451E9 /* Pods-ZSTips_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E489D2ED470C58E47317E9C1536D4E2 /* Build configuration list for PBXNativeTarget "Pods-ZSTips_Tests" */;
+			buildPhases = (
+				1AC36280FEAA70789137F6D603CE791F /* Headers */,
+				A232DA62DDDE7CFC0AEC5A32630DB2C0 /* Sources */,
+				C7705A595EAA12F987E6E23C98CE8149 /* Frameworks */,
+				BD1E783B5A08560B1E31541E0A58FB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEF299664606981915D135931A8A8B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZSTips_Tests";
+			productName = Pods_ZSTips_Tests;
+			productReference = EC815EB31F2DD8E1A2DDAB5E5A2F0788 /* Pods-ZSTips_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8CE8BA8712340006576A942FE2798C6 /* ZSTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BF90CDF8E199673768C912CB134C2A /* Build configuration list for PBXNativeTarget "ZSTips" */;
+			buildPhases = (
+				C15F48F9D2711D8D2C9B6679D90B1616 /* Headers */,
+				D47E6289F1FF07511DAAFBF91BD6AF09 /* Sources */,
+				73D170DDA4CC516081A19F3D543FFDAA /* Frameworks */,
+				93E99BABB30CCEB39007376061A40F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSTips;
+			productName = ZSTips;
+			productReference = 90D71FCF4B27CC4A8B4F3B5C3B797B82 /* ZSTips */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFF2616BAC3680262E2CD76E5B714D77 /* Pods-ZSTips_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE710862615F873F4F71B78099AC1CC /* Build configuration list for PBXNativeTarget "Pods-ZSTips_Example" */;
+			buildPhases = (
+				59F804CDFCB3F55BF4B873DEFAECA0FA /* Headers */,
+				E0BF0A6B4B4B445B111130B7B4EA1A6F /* Sources */,
+				2C0CB1CEAA150FEC4B8593D3DAD6B8CB /* Frameworks */,
+				FC92CA8B9FC0118271FA64172667B80A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9676BB5F648862C0B912BE0C2E4EA048 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZSTips_Example";
+			productName = Pods_ZSTips_Example;
+			productReference = 3FD00A46AC5B5A37660E1321759A34F8 /* Pods-ZSTips_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 84E3289CA4378297D209DAA5B1AC97E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF2616BAC3680262E2CD76E5B714D77 /* Pods-ZSTips_Example */,
+				55B28D9174C6186A8C197C1B911451E9 /* Pods-ZSTips_Tests */,
+				E8CE8BA8712340006576A942FE2798C6 /* ZSTips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93E99BABB30CCEB39007376061A40F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1E783B5A08560B1E31541E0A58FB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC92CA8B9FC0118271FA64172667B80A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A232DA62DDDE7CFC0AEC5A32630DB2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921A9E2B1B40BF4CF5ACF19DE0CA4B71 /* Pods-ZSTips_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47E6289F1FF07511DAAFBF91BD6AF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB37489CB86831FA8CB4C31A26A53613 /* ReplaceMe.m in Sources */,
+				EA34A334D52D99C54FA7B2E80D1DC368 /* ZSTips-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BF0A6B4B4B445B111130B7B4EA1A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3726900CDA1554C3BA0A6FD63D71C449 /* Pods-ZSTips_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AEF299664606981915D135931A8A8B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZSTips_Example";
+			target = EFF2616BAC3680262E2CD76E5B714D77 /* Pods-ZSTips_Example */;
+			targetProxy = ACD6C4EF945AE01672475BB66C7F5EB7 /* PBXContainerItemProxy */;
+		};
+		9676BB5F648862C0B912BE0C2E4EA048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZSTips;
+			target = E8CE8BA8712340006576A942FE2798C6 /* ZSTips */;
+			targetProxy = EF3E7950366FFB2537BA17A1B04996E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C8EDA1C64FE54BE712C03C965CE8FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F6A8BC69592CD8878CE7A3FBEAD5B9 /* Pods-ZSTips_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZSTips_Tests/Pods-ZSTips_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZSTips_Tests/Pods-ZSTips_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88CD24DEC4B68BF78D8D8DBEBD8D0A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E601E62BD5C3922669B599A964C81B5 /* ZSTips.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZSTips/ZSTips-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZSTips/ZSTips-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZSTips/ZSTips.modulemap";
+				PRODUCT_MODULE_NAME = ZSTips;
+				PRODUCT_NAME = ZSTips;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2391FA8E4DA735543CE9F0CCA1C86B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9C6D6B1985E5FE3A28A3ED808B5083 /* Pods-ZSTips_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZSTips_Example/Pods-ZSTips_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZSTips_Example/Pods-ZSTips_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C729DBEB0D9067A53939D89D691479F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640B25B5E83C12E8B3A0217EDCA0BE4D /* Pods-ZSTips_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZSTips_Example/Pods-ZSTips_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZSTips_Example/Pods-ZSTips_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EBE7566BC98EA6EA06A27B208E30EDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AB40630B923EBDC4BF259D86DE3949 /* Pods-ZSTips_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZSTips_Tests/Pods-ZSTips_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZSTips_Tests/Pods-ZSTips_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBED2156A5115D4AA0F8696D44229110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31036C31B7C143B8F11D9D3DB5C2CF9 /* ZSTips.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZSTips/ZSTips-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZSTips/ZSTips-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZSTips/ZSTips.modulemap";
+				PRODUCT_MODULE_NAME = ZSTips;
+				PRODUCT_NAME = ZSTips;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BF90CDF8E199673768C912CB134C2A /* Build configuration list for PBXNativeTarget "ZSTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CD24DEC4B68BF78D8D8DBEBD8D0A83 /* Debug */,
+				EBED2156A5115D4AA0F8696D44229110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E489D2ED470C58E47317E9C1536D4E2 /* Build configuration list for PBXNativeTarget "Pods-ZSTips_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE7566BC98EA6EA06A27B208E30EDE4 /* Debug */,
+				2C8EDA1C64FE54BE712C03C965CE8FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE710862615F873F4F71B78099AC1CC /* Build configuration list for PBXNativeTarget "Pods-ZSTips_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2391FA8E4DA735543CE9F0CCA1C86B3 /* Debug */,
+				C729DBEB0D9067A53939D89D691479F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

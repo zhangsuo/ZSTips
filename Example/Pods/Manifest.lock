@@ -1,0 +1,16 @@
+PODS:
+  - ZSTips (0.1.0)
+
+DEPENDENCIES:
+  - ZSTips (from `../`)
+
+EXTERNAL SOURCES:
+  ZSTips:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZSTips: 02b385a23000e00db9e6dd92e161c85b288b16b6
+
+PODFILE CHECKSUM: 67ad5c84f297763896fc23d1cba44ad2f9fc6c50
+
+COCOAPODS: 1.11.3

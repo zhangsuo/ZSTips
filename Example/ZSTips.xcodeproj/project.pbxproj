@@ -41,7 +41,7 @@
 		1CFA9FDEE277612DCF991068 /* Pods-ZSTips_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSTips_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZSTips_Tests/Pods-ZSTips_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		261BF97733A270033E56E3AA /* Pods_ZSTips_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSTips_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		331643F240E9E7C565EA3081 /* Pods-ZSTips_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSTips_Example.release.xcconfig"; path = "Target Support Files/Pods-ZSTips_Example/Pods-ZSTips_Example.release.xcconfig"; sourceTree = "<group>"; };
-		39214B30C2131D5AE3BD8C6F /* ZSTips.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZSTips.podspec; path = ../ZSTips.podspec; sourceTree = "<group>"; };
+		39214B30C2131D5AE3BD8C6F /* ZSTips.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZSTips.podspec; path = ../ZSTips.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ZSTips_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSTips_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A21DFD3A1B86033F3EA10E2E /* Pods_ZSTips_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSTips_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C69534452BB9D2EB7DC9A89F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D9DB870C1787971EE443FAB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C69534452BB9D2EB7DC9A89F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D9DB870C1787971EE443FAB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD24EF9399CE81BC65BB0397 /* Pods-ZSTips_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSTips_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZSTips_Example/Pods-ZSTips_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				1CFA9FDEE277612DCF991068 /* Pods-ZSTips_Tests.debug.xcconfig */,
 				0252A65D2F5C77FE4F143D67 /* Pods-ZSTips_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

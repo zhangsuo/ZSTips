@@ -1,0 +1,22 @@
+{
+  "name": "ZSTips",
+  "version": "0.1.0",
+  "summary": "A short description of ZSTips.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/m15901514508@163.com/ZSTips",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "m15901514508@163.com": "zhangsuo@zenking.cc"
+  },
+  "source": {
+    "git": "https://github.com/m15901514508@163.com/ZSTips.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZSTips/Classes/**/*"
+}
