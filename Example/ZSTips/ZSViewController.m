@@ -7,7 +7,7 @@
 //
 
 #import "ZSViewController.h"
-#import "ZSTest.h"
+
 @interface ZSViewController ()
 
 @end
@@ -19,6 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning
