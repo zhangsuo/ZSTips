@@ -32,6 +32,8 @@ ZSTips is available under the MIT license. See the LICENSE file for more info.
  
  [EasyShowTextView showText:@"这是一条纯文字消息!"];
  
+ 
+ ```
  //  ViewController.m
  
 #import "ViewController.h"
@@ -268,3 +270,4 @@ ZSTips is available under the MIT license. See the LICENSE file for more info.
 
 @end
 
+```
