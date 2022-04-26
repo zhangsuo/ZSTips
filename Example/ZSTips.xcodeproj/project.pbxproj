@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B3C0F59D2817D230000EC9A6 /* ZSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C0F59C2817D230000EC9A6 /* ZSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A21DFD3A1B86033F3EA10E2E /* Pods_ZSTips_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSTips_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C0F59B2817D230000EC9A6 /* ZSTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSTest.h; sourceTree = "<group>"; };
+		B3C0F59C2817D230000EC9A6 /* ZSTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSTest.m; sourceTree = "<group>"; };
 		C69534452BB9D2EB7DC9A89F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D9DB870C1787971EE443FAB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD24EF9399CE81BC65BB0397 /* Pods-ZSTips_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSTips_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZSTips_Example/Pods-ZSTips_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZSViewController.h */,
 				6003F5A6195388D20070C39A /* ZSViewController.m */,
+				B3C0F59B2817D230000EC9A6 /* ZSTest.h */,
+				B3C0F59C2817D230000EC9A6 /* ZSTest.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -364,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C0F59D2817D230000EC9A6 /* ZSTest.m in Sources */,
 				6003F59E195388D20070C39A /* ZSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
